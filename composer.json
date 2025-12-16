@@ -1,0 +1,15 @@
+{
+    "name": "user/piza-librari",
+    "autoload": {
+        "psr-4": {
+            "User\\PizaLibrari\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nfhfuhe",
+            "email": "vova28072007@mail.ru"
+        }
+    ],
+    "require": {}
+}
