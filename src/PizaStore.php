@@ -1,17 +1,16 @@
 <?php
 
 namespace user\PizaLibrary;
-
-class PizaStore
+use user\PizaLibrary\Piza;
+abstract class PizaStore
 {
-    public string $type;
-    protected function createPiza(string $type): string
-    {
-        return $this->type;
-    }
+    protected abstract function createPiza(string $type);
 
-    public function orderPiza(string $type)
+    public function orderPiza(string $type) 
     {
         $piza = $this->createPiza($type);
+        $piza->prepare();
+        $piza->cut();
+        return $piza;
     }
 }
