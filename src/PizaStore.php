@@ -1,6 +1,6 @@
 <?php
 
-namespace PizaLibrary;
+namespace user\PizaLibrary;
 
 abstract class PizaStore
 {
