@@ -1,6 +1,6 @@
 <?php
 
-namespace user\PizaLibrary;
+namespace User\PizaLibrari;
 
 class Piza
 {
